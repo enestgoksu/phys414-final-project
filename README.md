@@ -1,13 +1,47 @@
-# PHYS414/514 Final Project (Fall 2025)
+# PHYS414 / PHYS514 Final Project
 
-Name: Enes Taha Göksu
+**Name:** Enes Taha Göksu  
+**Course:** PHYS414 / PHYS514 – Stellar Structure  
+
+---
+
+## Overview
+
+This repository contains the computational notebooks and final report for the
+PHYS414/514 Final Project on stellar structure.
+
+The project studies compact stars using:
+
+- Newtonian gravity (white dwarfs)
+- General Relativity (TOV equations for neutron stars)
+
+---
 
 ## Contents
-- `report/` : LaTeX report (main manuscript + computational details)
-- `notebooks/` : Jupyter notebook(s) used for analysis and figures
-- `src/` : Python modules (ODE solvers, EOS, fitting, plotting utilities)
-- `data/` : Input data (e.g., `white_dwarf_data.csv`)
 
-## How to run
-1. Create environment (conda recommended)
-2. Run notebooks in `notebooks/` or scripts in `src/`
+- `notebooks/`  
+  Jupyter notebooks used for all calculations and figures  
+  (Newton and Einstein parts)
+
+- `figures/`  
+  Figures generated from the notebooks and used in the report
+
+- `data/`  
+  Input data (white dwarf observational data)
+
+- `report/`  
+  Final project report (PDF)
+
+---
+
+## Notes
+
+- Newtonian calculations are performed in CGS units.
+- Einstein (TOV) calculations use geometrized units.
+- All figures in the report are reproducible from the notebooks.
+
+---
+
+## Final Report
+
+The final report PDF is located in the `report/` directory.
